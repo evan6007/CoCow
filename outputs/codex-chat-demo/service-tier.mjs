@@ -1,0 +1,1 @@
+export function serviceTier(models,model,requested='default'){if(requested==null||requested==='default')return 'default';if(!['priority','fast'].includes(requested))throw Error('Unknown speed tier');const tiers=models.find(m=>m.id===model)?.serviceTiers||[];const tier=tiers.find(t=>['priority','fast'].includes(t.id));if(!tier)throw Error('此模型或主機尚未提供速度提升，請關閉後重試。');return tier.id;}

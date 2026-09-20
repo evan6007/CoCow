@@ -1,0 +1,7 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),os=require('os');
+const privateFile=path.join(os.homedir(),'.codex','workbench-release-signing.pem');
+if(!fs.existsSync(privateFile)){const pair=crypto.generateKeyPairSync('ed25519');fs.writeFileSync(privateFile,pair.privateKey.export({type:'pkcs8',format:'pem'}),{mode:0o600,flag:'wx'});}
+const privateKey=fs.readFileSync(privateFile),publicKey=crypto.createPublicKey(privateKey).export({type:'spki',format:'pem'});
+const app='outputs/codex-chat-demo';fs.writeFileSync(path.join(app,'update-public-key.mjs'),'export const updatePublicKey='+JSON.stringify(publicKey)+';\n');
+const files=fs.readdirSync(app).filter(n=>/\.(mjs|js|html|css|svg|py)$/.test(n)).map(name=>{const b=fs.readFileSync(path.join(app,name));return {name,data:b.toString('base64'),sha256:crypto.createHash('sha256').update(b).digest('hex')};});
+const payload=JSON.stringify({version:fs.readFileSync(path.join(app,'release.js'),'utf8').match(/version='([^']+)'/)?.[1],release:Number(fs.readFileSync(path.join(app,'release.js'),'utf8').match(/buildNumber=(\d+)/)[1]),files});const signature=crypto.sign(null,Buffer.from(payload),privateKey).toString('base64');fs.writeFileSync((process.argv[2]||'outputs/workbench-app-update.json'),JSON.stringify({payload,signature}));console.log('Signed app-only update bytes:',fs.statSync((process.argv[2]||'outputs/workbench-app-update.json')).size);

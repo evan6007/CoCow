@@ -1,0 +1,13 @@
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const bridge=readFileSync('bridge.mjs','utf8');
+const exec=readFileSync('execution.mjs','utf8');
+assert.match(bridge,/plugins:\s*\{\}/);
+assert.match(bridge,/apps\._default\.enabled['"]?\s*:\s*false/);
+for (const feature of ['features.plugins','features.apps','features.remote_plugin']) assert.match(bridge,new RegExp(feature.replace('.','\\.')+'\\s*\\]\\s*=\\s*false'));
+assert.match(bridge,/const disabled = \[[\s\S]*'plugins'[\s\S]*'apps'[\s\S]*'remote_plugin'/);
+assert.match(bridge,/mcp_servers\.${match\[1\]}\.enabled/);
+assert.match(exec,/mcp_connector/);
+console.log('PLUGIN_CONFIG_DISABLED=true');
+console.log('MCP_CONNECTOR_IMPLEMENTED=true');
+console.log('BUILTIN_APPS_PLUGINS_EXPOSED=false');

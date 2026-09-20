@@ -1,0 +1,13 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {createServer} from 'node:http';
+import {mkdtempSync,rmSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {LocalMcp} from './local-mcp.mjs';
+for(const sse of [false,true])test(`Unity HTTP initialize, tools, call and restrictions (${sse?'SSE':'JSON'})`,async t=>{
+ const requests=[];const server=createServer(async(req,res)=>{let body='';for await(const c of req)body+=c;const m=JSON.parse(body);requests.push(m);assert.equal(req.headers.authorization,'Bearer test-secret');if(m.method==='notifications/initialized'){res.writeHead(202);res.end();return;}if(m.method!=='initialize')assert.equal(req.headers['mcp-session-id'],'test-session');const result=m.method==='initialize'?{protocolVersion:'2024-11-05',capabilities:{},serverInfo:{name:'Unity test',version:'1'}}:m.method==='tools/list'?{tools:[{name:'read'},{name:'write'}]}:{content:[{type:'text',text:'scene ready'}]};res.writeHead(200,{'Content-Type':sse?'text/event-stream':'application/json','Mcp-Session-Id':'test-session'});const data=JSON.stringify({jsonrpc:'2.0',id:m.id,result});res.end(sse?'data: '+data+'\n\n':data);});
+ await new Promise(r=>server.listen(0,'127.0.0.1',r));t.after(()=>server.close());const dir=mkdtempSync(join(tmpdir(),'unity-mcp-'));t.after(()=>rmSync(dir,{recursive:true,force:true}));
+ const m=new LocalMcp(dir,{discover:async()=>({unity:{enabled:true,url:`http://127.0.0.1:${server.address().port}/mcp`,headers:{Authorization:'Bearer test-secret'},enabled_tools:['read'],disabled_tools:['write']}})});t.after(()=>m.close());await m.refresh();assert.deepEqual(m.list(),[{name:'unity',enabled:true,connected:false}]);assert.equal(requests.length,0);assert.deepEqual((await m.call({action:'tools',server:'unity'})).tools,[{name:'read'}]);assert.match(JSON.stringify(await m.call({action:'call',server:'unity',tool:'read'})),/scene ready/);await assert.rejects(m.call({action:'call',server:'unity',tool:'write'}),/disabled/);assert.equal(requests.filter(r=>r.method==='tools/call').length,1);
+});
+test('workspace discovery changes scope and explicit disabled config wins',async t=>{const dir=mkdtempSync(join(tmpdir(),'unity-mcp-'));t.after(()=>rmSync(dir,{recursive:true,force:true}));let scope='one',count=0;const m=new LocalMcp(dir,{getWorkspace:()=>scope,discover:async cwd=>{count++;return {[cwd]:{enabled:true,command:'unused',args:[]}};}});await m.refresh();await m.refresh();assert.equal(count,1);scope='two';await m.refresh();assert.deepEqual(m.list().map(s=>s.name),['two']);m.configure({two:{enabled:false,command:'unused',args:[]}});assert.equal(m.list()[0].enabled,false);await assert.rejects(m.call({action:'tools',server:'two'}));});

@@ -1,0 +1,994 @@
+[
+  {
+    "path": "assets/cocow.svg",
+    "sha256": "3b6e123a9cb41cc093553dc045b5a2a2237786bffb7109b2fe04ad33e22986da"
+  },
+  {
+    "path": "outputs/codex-chat-demo/access.mjs",
+    "sha256": "bf99ca87c63af66946ff4bd47d75c00bf995130c09e42f7751d6d3edc7132bb5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/account-budgets-jitter.test.mjs",
+    "sha256": "54e84419aaaceb5314242fe77cd7947b087e430300742aac23d4bbadb274c64f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/account-budgets.mjs",
+    "sha256": "8e05a504b2699af9920e91f61c78ea2bf9f433ec1b55d5e0e520e65ffe8887fd"
+  },
+  {
+    "path": "outputs/codex-chat-demo/admin.js",
+    "sha256": "638c8b671f4270cb93d10f313d633dc4362fc1292827edba85ab7faea7de767f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/antigravity-install.mjs",
+    "sha256": "9b09af0936759ad489866703f2e753efbc84869005bf08362ca3239820ce2498"
+  },
+  {
+    "path": "outputs/codex-chat-demo/antigravity.mjs",
+    "sha256": "1d38bb66d6d8633702309a5de6c39df546e9efdb95b0b9fa463324b956e0ecab"
+  },
+  {
+    "path": "outputs/codex-chat-demo/app.css",
+    "sha256": "37c4d414bceca8169d49d0d33491059699e598b47211d995bb9ed7300454029f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/approval-auto.test.mjs",
+    "sha256": "4884a6e85999c5bb79323697f19156a904865a9c8680aad5ada4c943981e0500"
+  },
+  {
+    "path": "outputs/codex-chat-demo/attachments.mjs",
+    "sha256": "84514dd8b2cc12ef6ba50a8ed61ae10d3724e0cbf102da22b24c67329e9fa05e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/auto-reasoning.mjs",
+    "sha256": "f5b5c9c9be897c4b37665f3fb304ce838c6793f469e8b65cbc2b009f62ba2eec"
+  },
+  {
+    "path": "outputs/codex-chat-demo/auto-update.mjs",
+    "sha256": "0810cdb222943c837295cc81ebbd79aca122840493cb2c60fcc652bd79d569a2"
+  },
+  {
+    "path": "outputs/codex-chat-demo/bridge.mjs",
+    "sha256": "7c0157573bb4a6d20d0d3c17366467d784211bbcc0a8f346b9abe43a0b872317"
+  },
+  {
+    "path": "outputs/codex-chat-demo/chat-attachment-readback.test.mjs",
+    "sha256": "375051bc94c7d8c0c6f0abebe64ea3f84d1544dd92ed0bb243e061a0c15a8243"
+  },
+  {
+    "path": "outputs/codex-chat-demo/chat-delete.test.mjs",
+    "sha256": "17f26460ed01e70256c5d43006c9d3ab83d9a94e55f9a3ebcfaca4444a5faa33"
+  },
+  {
+    "path": "outputs/codex-chat-demo/client.js",
+    "sha256": "3460458b40d4968b4787fd845d125b03025787cf3ca87f00329e398a304a3a4f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/composer-attachments.js",
+    "sha256": "0cf2db878f9e1fb79eaf4e7f5f4d64c03b5683548167d49263cbc6042dc356c8"
+  },
+  {
+    "path": "outputs/codex-chat-demo/composer-attachments.test.mjs",
+    "sha256": "0f1f807a2a9a0b10e5643bc946bcc525793a679a4030b64613dac027d1942fea"
+  },
+  {
+    "path": "outputs/codex-chat-demo/conversations.mjs",
+    "sha256": "aca29d25cf0cd5d912f15bfbb37414f540473bf00c913e10238b80825d35458c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/desktop-intervention.mjs",
+    "sha256": "bf1d306bba5398a5344a91ade811d0b166a7c31295f40165131dd45d367801aa"
+  },
+  {
+    "path": "outputs/codex-chat-demo/desktop-launch.mjs",
+    "sha256": "f6e85224c27214d4c87a05f4b4ec9ae227f3949278ea94c2bfc5d68336b6bb28"
+  },
+  {
+    "path": "outputs/codex-chat-demo/desktop-sync.mjs",
+    "sha256": "8b65a8b0c09a10b9d36558bc3e98a65a499faf9bad1062e88bc987811fdf93ec"
+  },
+  {
+    "path": "outputs/codex-chat-demo/desktop-welcome.html",
+    "sha256": "cddea3eaf9b54db150e68b142c6fe6d5539586db6828185cbe2a55f8b9b6b9ac"
+  },
+  {
+    "path": "outputs/codex-chat-demo/Enable-Remote.ps1",
+    "sha256": "e4a4ac55846a0073e7d1ad5cbc7f04c0ec578120bf00bd6d8859ae42445ce60e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/execution-approval.mjs",
+    "sha256": "072d9dc5cde57d862400ead18b95131c7467a2ea8475c503924e1312dfef0896"
+  },
+  {
+    "path": "outputs/codex-chat-demo/execution-tools.mjs",
+    "sha256": "68a2903a24d1fb50a2f3c5bc35261950454c171983f3f5d1ed485b6420a09403"
+  },
+  {
+    "path": "outputs/codex-chat-demo/execution-ui.js",
+    "sha256": "26ec99faa03b38c24451336a20fc084e38485212ac31368227bb8fa9ce3c9f2f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/execution.mjs",
+    "sha256": "999c77f640fdbbee992aec59553aff698fb153fddf3c071573fe1c0229232c4d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/extract-document.py",
+    "sha256": "e05ccff6a1db04f5d0f35fdacd165667b1084e68587db4feb5de4d9d42b6aef5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/favicon.svg",
+    "sha256": "46840b35fbbf960af135a422070655daa1efd289d4434a97df10fa5961cde127"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-attachment-regression.test.mjs",
+    "sha256": "537f00e87efa8f7db223053b2c71d448f127872b12c14a2ac014ae49646326d0"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-classification.test.mjs",
+    "sha256": "2b751e56843e03b146f3b1544e2ef87d0f29a92b520d189fc7b6b0b018cd6c82"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-qa.mjs",
+    "sha256": "bc01e1483b172056bae27e059f56899c5642d39e005a0212bab01ece936e68a2"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-qa.test.mjs",
+    "sha256": "5a62ba296c7d6191e768e680d36726ec07c63f7d9240e0cfeaa3b27b1850fef0"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-refresh.test.mjs",
+    "sha256": "2d7ce7920828f0eaa2108c509aeb96b6fc2ec69be743b0453ba60cdc44b56ad4"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-tasks.mjs",
+    "sha256": "7ce0e02c02d2dac6a02feab7975685da28dbbe0ec4a5d5fd292ae0fb2c12e968"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-tasks.test.mjs",
+    "sha256": "7054176a7eb933ce0bec56f6126c1e737ab7d454c328d79dcf285cc8e1dc988c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-thread.js",
+    "sha256": "2f086c87657e59d1ce9c87a14b2fd155021900a3aae7659abd1f0fabf0afe70c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-thread.test.mjs",
+    "sha256": "1f8da42749d803f2fd14104d99a34cc93f5c3635657ff29e15c1549b07d73d5f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback-ui.js",
+    "sha256": "6535f86f9a6cf2bde7deb3342012ba98a8415a4c6a4d26ef76940f2e81c9fca9"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback.css",
+    "sha256": "f60da1b55560398aeee05d19a80bb761acdf72dc10ec457fd868a2123c4b3bcd"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback.html",
+    "sha256": "74b8495465c7a8fed1ed666e8eb3932ba1ef262a8c5334745d3a50bc77164e35"
+  },
+  {
+    "path": "outputs/codex-chat-demo/feedback.mjs",
+    "sha256": "302491961b3f97d1bd316106ed5dba8dd67392b8455a41a4f28be415642cc39e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/file-changes.mjs",
+    "sha256": "4d5c020598d8bb67ed2ff843d153420c4fb2ddd71fd3a5d3259ba673941e6f5b"
+  },
+  {
+    "path": "outputs/codex-chat-demo/font.css",
+    "sha256": "e54c2ce757fa6a08a93ad31c99230c3aa8dea8d88c48455019c3f9a3b6697d71"
+  },
+  {
+    "path": "outputs/codex-chat-demo/gpu-diagnostic.mjs",
+    "sha256": "e16dbfed582ee6b71a2dfd9498a0082c069626e307bd4eb5c25ae78d33d6897a"
+  },
+  {
+    "path": "outputs/codex-chat-demo/history.mjs",
+    "sha256": "d68b4944e40abc321a6226e15c7898315617c0f93106e2fbe350fffd38905f8f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/hybrid-routing.mjs",
+    "sha256": "9d33f3dc5ec120fa1ff11abc70229799c72e52a9be3886df3a90f1ecf9086d76"
+  },
+  {
+    "path": "outputs/codex-chat-demo/hybrid-ui.js",
+    "sha256": "37b47e65aeea17e821cc59e89c1a8249ca48f6dcc7e95dfc33e0597c4241389f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/index.html",
+    "sha256": "e09134f6350d970f407508186dce9e1ef6c11db8f14ed9b9980208a6160f949d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/initialize-account.mjs",
+    "sha256": "9b5e98683fa4a9f98862a34326546d9033bf308f90e87b228b539ef2204e17c4"
+  },
+  {
+    "path": "outputs/codex-chat-demo/Install-Local.ps1",
+    "sha256": "fc9514d527ffd8208130f3e1296be61bb8cc460909914b8cfe9e10e428f77748"
+  },
+  {
+    "path": "outputs/codex-chat-demo/investigation-plugin-path.mjs",
+    "sha256": "2efbf010d9b87737ffc65925797602f096015237619e881696f4666b875b1949"
+  },
+  {
+    "path": "outputs/codex-chat-demo/katex-license.js",
+    "sha256": "f1a436b862f53eaae7edc962421a92ae102f943c82b2c27028571378ec315f0f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/katex.mjs",
+    "sha256": "7af1aa5e484a4ae881e181ff97ddffdce2deabef42596d2679658b9fe4cd4615"
+  },
+  {
+    "path": "outputs/codex-chat-demo/library-selection.test.mjs",
+    "sha256": "ea729628505823f16c8263f666a28fcccaf5858e347f92ab7aaeeb7ff0453163"
+  },
+  {
+    "path": "outputs/codex-chat-demo/live-view.js",
+    "sha256": "14bd54b6e50e8a194ef083817daf17c8e01a04772968055f2e934cd321269545"
+  },
+  {
+    "path": "outputs/codex-chat-demo/local-codex-projects.mjs",
+    "sha256": "d5abd8e90b53bd37fc130d695be3dfdfc6d9a6d8df896a7944848e74b808dd43"
+  },
+  {
+    "path": "outputs/codex-chat-demo/local-desktop.mjs",
+    "sha256": "f217156935a52f9824484ea77f99ef224e35c88f8f27470be5bdadab3f28f992"
+  },
+  {
+    "path": "outputs/codex-chat-demo/local-file-open.mjs",
+    "sha256": "4725daab00812dc5f947aef46b0c718bc4f00aebb0edeed218d0eaa2535b9ef0"
+  },
+  {
+    "path": "outputs/codex-chat-demo/local-image.mjs",
+    "sha256": "756238c0607ba915c631b37aa15b05329910ad772858cc6d3a89d2074c0b585e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/local-layout.mjs",
+    "sha256": "8947d1aa785931d424123a8aa14ef982c247cda662d0e64e0a589629ab78ccfb"
+  },
+  {
+    "path": "outputs/codex-chat-demo/local-mcp.mjs",
+    "sha256": "fea042ffe43d59a1462ede1156fe2eb6b3f7fbdd8cac4f42318c322b79ec385a"
+  },
+  {
+    "path": "outputs/codex-chat-demo/local-network.mjs",
+    "sha256": "0899a847b750544c544315d6960f66e8a7591b90761520c87031a354b589f1de"
+  },
+  {
+    "path": "outputs/codex-chat-demo/markdown.mjs",
+    "sha256": "5ad2769622552a7d1089768be71f8a6f024fc4915531a8b9265fd41970d7e975"
+  },
+  {
+    "path": "outputs/codex-chat-demo/mcp-discovery.test.mjs",
+    "sha256": "c94b988200235f8bf55fb1f84686ab9b9653cd2fb47daca9c20f7889ec1971c3"
+  },
+  {
+    "path": "outputs/codex-chat-demo/mcp-http.mjs",
+    "sha256": "19618b844f0666649688e9bc97d194f2e1bfd42d56c002cfdc37ae113a3f34c8"
+  },
+  {
+    "path": "outputs/codex-chat-demo/metrics.mjs",
+    "sha256": "899489c1e2f0e8e4356e8f539eaf4da2a039343de079b637e02d7a2dd44e028f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/model-routing.mjs",
+    "sha256": "4f085840d073a6cea8f3018a102f37c3fd30cb6ff81959ad542b8bf752960b71"
+  },
+  {
+    "path": "outputs/codex-chat-demo/native-live.mjs",
+    "sha256": "e38dcecaf2080287c32fa670db3377a5ed841a7ec6dc2a23b6e497243ae2e943"
+  },
+  {
+    "path": "outputs/codex-chat-demo/onboarding.mjs",
+    "sha256": "c63bff6b03fd9e6deb12a3b6e5e61d05064b4ee5fabbb4df3ceb940622863d9b"
+  },
+  {
+    "path": "outputs/codex-chat-demo/parallel-preflight.test.mjs",
+    "sha256": "6a28a2847931467c60172f5bcf3838b6c2abaa6408ed2e9e6c42c3e3731c55ff"
+  },
+  {
+    "path": "outputs/codex-chat-demo/parallel-review.mjs",
+    "sha256": "845dd824912f068c6a15631448cd095ebef5f403e790e08252d6ff5e2372e338"
+  },
+  {
+    "path": "outputs/codex-chat-demo/peer-bridge.mjs",
+    "sha256": "b1f85dcd707d2cd4fa09d968071bce312352ecc10dc284d05a2435a5ea57eb65"
+  },
+  {
+    "path": "outputs/codex-chat-demo/peer-gateway.mjs",
+    "sha256": "483e07414154e294c9008545a077ba33d2cc66701ddd6acfd162762647c2e477"
+  },
+  {
+    "path": "outputs/codex-chat-demo/pickers.js",
+    "sha256": "f19a0cff92824d0f62e51e807a04d51b7f0d9ba2499ddd5a98b9873f86a3360d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/premium.css",
+    "sha256": "d1448b05ff55b42d5acbbe4978c45a1e1ee92dff9030ed73a75620d070b39978"
+  },
+  {
+    "path": "outputs/codex-chat-demo/presentation.mjs",
+    "sha256": "9e3e6515c1dfb4db0a604a128cc51b8150b4e6084b9905a405436dfc75a0af71"
+  },
+  {
+    "path": "outputs/codex-chat-demo/projects.mjs",
+    "sha256": "f53e51324ceacd1353834bd039b103e424336f1b13f4f25c8e9f65a2b06aa31d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/python-runtime.mjs",
+    "sha256": "004f75cf7aed9af9028d2aacfd47c749be392167978903688a78b7e7f2838065"
+  },
+  {
+    "path": "outputs/codex-chat-demo/quota-estimate.mjs",
+    "sha256": "4a8dbb032173efbb51530a4192bf7dcf0218f3cd4950a717588ce816a58530d6"
+  },
+  {
+    "path": "outputs/codex-chat-demo/record-feedback-verification.mjs",
+    "sha256": "4b0f8489f8ddf6963fa5d842d99d4a7f4ce9498e8f290eefba397f9b5f25e0ed"
+  },
+  {
+    "path": "outputs/codex-chat-demo/release-notes.mjs",
+    "sha256": "2ae4b2092cf4d0aba294ffb218819ebe348853717fa20c70c5779dbc9a20ff2f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/release.js",
+    "sha256": "15d3cdd2f39f9d8e72bebba1c79c601a818032bc9b526b6c071d29b986b5788c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/remote.mjs",
+    "sha256": "dc23bcae8e60928ba08384171b0719be4531feb6a6164c89f0166b5dd8b8c160"
+  },
+  {
+    "path": "outputs/codex-chat-demo/restart-service.mjs",
+    "sha256": "9528be664e571d974d658da3d410027d6d0d429d1ec74e0a044209316a4263d2"
+  },
+  {
+    "path": "outputs/codex-chat-demo/rich-content.js",
+    "sha256": "1c29d56abed061162b270e39027fc098b7b8e18d32452885bf7c26835235f6cb"
+  },
+  {
+    "path": "outputs/codex-chat-demo/runtime-paths.mjs",
+    "sha256": "6838d57a81be1b78bb6254b94da18a251d2c0eb28d9a929bbd18ced39102fe9e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/runtime-status.mjs",
+    "sha256": "428ea798b25698179e4cfa87df06e2600fb66a98b5657d4d2a03edba3249c25f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/scroll-follow.js",
+    "sha256": "49220e35dad34f8fce776c131a05e8ba5cfb75472502940a5738a5333fda5aca"
+  },
+  {
+    "path": "outputs/codex-chat-demo/server.mjs",
+    "sha256": "3f991a5fbdfe7e2aed2c89e4f1313a1845bcb161e973817ff88ba3664168943a"
+  },
+  {
+    "path": "outputs/codex-chat-demo/service-tier.mjs",
+    "sha256": "edfe3b5453e807679d2e65a0c158e5455fbe537306b28efc203918229d0ffe2c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/service-tier.test.mjs",
+    "sha256": "4a07c9646489433b2546a14918933a06191055005e95e8b5be658e5939798e32"
+  },
+  {
+    "path": "outputs/codex-chat-demo/setup-local.mjs",
+    "sha256": "7fa153ed57bc3deb0d20a204293a66d17e8fae7d5bb50fe02d5113fa523a5ed0"
+  },
+  {
+    "path": "outputs/codex-chat-demo/Setup-Workbench.ps1",
+    "sha256": "8c547dc1badb12a0aef858e64cafeba26fc36656496744d5d31f5e1119a729e5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/shared-history.mjs",
+    "sha256": "118a3b5c99d8b56b2c7d8b6aab9bfd0fe8ddf4e74517dda5f102f2326f7c4692"
+  },
+  {
+    "path": "outputs/codex-chat-demo/sidebar.js",
+    "sha256": "5646c26ac9ca0ae94bb83abb8ae76676e511b16e6589eb4e44b71f3e815705ed"
+  },
+  {
+    "path": "outputs/codex-chat-demo/start-local.mjs",
+    "sha256": "2aec3dece58dae1199aaba91c90affdd7cd7577cfd2783ae53cdf4875d32ac29"
+  },
+  {
+    "path": "outputs/codex-chat-demo/Start-Local.ps1",
+    "sha256": "b1daca66202c7069d31c0d9d4950fc7531d70518afe43853026f94d49bfc9f6d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/Start.ps1",
+    "sha256": "2cd62f0344df79aaf4e29d6dd7f93094ef8e0f74fd8e34104128eaeca83d719b"
+  },
+  {
+    "path": "outputs/codex-chat-demo/Stop.ps1",
+    "sha256": "a6250b5c26da1a08adc8c098ac342166610a3b0a57217b294205bf45dab00fe4"
+  },
+  {
+    "path": "outputs/codex-chat-demo/storage-location.mjs",
+    "sha256": "ae85513a7bbaee9da232fbefc4bcd494aac82519a125fb276a40b7dc3b59156e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/storage-ui.css",
+    "sha256": "b314d788d061aaa3b07750e1518bc2db5b82cfa4796fe18c1b00f851aaa083d6"
+  },
+  {
+    "path": "outputs/codex-chat-demo/storage.mjs",
+    "sha256": "e29d750a5ccd24aa6c0b1000e3d259c735ae10f864e264a310df10d21b15f956"
+  },
+  {
+    "path": "outputs/codex-chat-demo/store.mjs",
+    "sha256": "0e6ce18189dad2302fae5d30f023aaf757869dbbe84f50786220e52e50bbd566"
+  },
+  {
+    "path": "outputs/codex-chat-demo/tailscale-invites.mjs",
+    "sha256": "9902e808c0a7c892c81d31c308564d646ab2512065452d6aee356ca6a8a1ee35"
+  },
+  {
+    "path": "outputs/codex-chat-demo/task-model.mjs",
+    "sha256": "6b08cd76e0abb5814f78bda6b6abb29c99dd0ffdfba61b53ce6dab8dfa0cb003"
+  },
+  {
+    "path": "outputs/codex-chat-demo/task-store.mjs",
+    "sha256": "f33d7403678ae94fcf74e20f1ce76ed37be3397258fb9f322e47e09fd110f472"
+  },
+  {
+    "path": "outputs/codex-chat-demo/task-workbench.css",
+    "sha256": "54e9d3c6b9a49518d69f5109358197294e488f8f0024f490df50947a09080e05"
+  },
+  {
+    "path": "outputs/codex-chat-demo/task-workbench.js",
+    "sha256": "dadb11e0bdc450f1e8d182294b209e3c64e0e174238c28b4429df16b50856377"
+  },
+  {
+    "path": "outputs/codex-chat-demo/task-workbench.test.mjs",
+    "sha256": "d00570751b1707ffb83a4735c3a8835fb442a7c03a5fa9e51e13bf71083c808d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/tmp-delete-investigation.mjs",
+    "sha256": "7c892b0d74e0ccb3f7f0240baca1cf78eb2b86eaedcbf4c1ce3ba8efb476e39a"
+  },
+  {
+    "path": "outputs/codex-chat-demo/tool-activity.mjs",
+    "sha256": "300846eeb1924becc9b342637d6adf972395bd025c8498afd0c2be589905dadf"
+  },
+  {
+    "path": "outputs/codex-chat-demo/tool-output.mjs",
+    "sha256": "fd7c6e858e140ebf53e7b485f79489384d19c97cb9d4ce66be25b5c98189b18b"
+  },
+  {
+    "path": "outputs/codex-chat-demo/turn-execution.mjs",
+    "sha256": "19ce766919ba16c39382918199fc78a40c44b766929aba9441f7464623c619af"
+  },
+  {
+    "path": "outputs/codex-chat-demo/turn-insights.js",
+    "sha256": "2fa1e6b7be8ff18a83701e8cd435977f1c73f9be339281722c4f7c05fabc4c44"
+  },
+  {
+    "path": "outputs/codex-chat-demo/turn-queue.js",
+    "sha256": "65f4932d80f4f993b701013e03988ae5b57cf7d63cd6c224286e42d1dd2c4517"
+  },
+  {
+    "path": "outputs/codex-chat-demo/turn-queue.test.mjs",
+    "sha256": "22ca8e1c2a06c4e8a6283a8a314b47c916d0a62fa3a2717ed2c5b58965eccaf8"
+  },
+  {
+    "path": "outputs/codex-chat-demo/turn-steering.mjs",
+    "sha256": "aef1805189d60c8075de825939220aad73ff0f424768ef181a5b602aca6a9cfb"
+  },
+  {
+    "path": "outputs/codex-chat-demo/turn-steering.test.mjs",
+    "sha256": "d63aceb2888e20e576f590ae52d6c0b537ea0e4f11722bacce79c64aa0e7c86f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/unity-mcp-source.mjs",
+    "sha256": "89c0b46dcc259134fb0b927a7852a0e2e986432eb8d59720239daa577f369ea5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/unity-mcp.test.mjs",
+    "sha256": "322e6d749436c4bd765cfcc04ca233123a8b6bb258600c25a52873fe75193097"
+  },
+  {
+    "path": "outputs/codex-chat-demo/update-controls.js",
+    "sha256": "65af96837c1c661c883bd66b24512ae00c461aab26cb3d59d94a8b914793a285"
+  },
+  {
+    "path": "outputs/codex-chat-demo/update-controls.test.mjs",
+    "sha256": "e91148080f3c5124a49a6a1225841f2321372e5c99ec450a8a6cfaed4cf70b9d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/update-public-key.mjs",
+    "sha256": "4384cedd4555e000f9b9d4e1e53ddecb8769d056debc49b92029d7f0b3e03f5b"
+  },
+  {
+    "path": "outputs/codex-chat-demo/upgrade-local.mjs",
+    "sha256": "efb928ab31ac7c47729e9ece3d83087da169c585b3f437a82c173665a12c102c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/uploads.mjs",
+    "sha256": "eda74ac5851da7ac9e8288092fc1b16590bba36043b90da0d6af288c12ab17ba"
+  },
+  {
+    "path": "outputs/codex-chat-demo/usage.mjs",
+    "sha256": "5a0470783cf20340b17c71905e21594fa34bc4e21e71bc5ab8b1e8bd20771258"
+  },
+  {
+    "path": "outputs/codex-chat-demo/workspace-continuation.test.mjs",
+    "sha256": "0b41dc96018281f4eb16e0813650f50e90d74a0c35ae19b667a0befb26b541ee"
+  },
+  {
+    "path": "outputs/codex-chat-demo/workspace-guidance.mjs",
+    "sha256": "f5af024e94dd4780f70372af27c06a8d7b903fe181e8006e086ad265987cb706"
+  },
+  {
+    "path": "outputs/codex-chat-demo/workspace-ui.js",
+    "sha256": "3a9f02350e3f7a90fa795d35c85d0ca49ad2381bbd226c6e19cf07131c0d558d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/_cocow_sync_investigate.mjs",
+    "sha256": "866eb9878a1c274336ef4ec6fbd00029d6af8f3eb7de276f3e182d4409ca502e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/\u958b\u555f\u5de5\u4f5c\u53f0.cmd",
+    "sha256": "79049d8da1488a3349e6ca047819589873c5dd2b313fe626556577742ad5e006"
+  },
+  {
+    "path": "outputs/codex-chat-demo/\u958b\u59cb\u4f7f\u7528.cmd",
+    "sha256": "79049d8da1488a3349e6ca047819589873c5dd2b313fe626556577742ad5e006"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/0092de95f06b778873da38c9.woff2",
+    "sha256": "a61e48c10a2cf4b92a7bc2e5ff468422db47fa2f8cf7a89a3f36d0dbca48514f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/015077e9bb599dcdd25ea533.woff2",
+    "sha256": "4a5da9e0c2702f7d43bc073e5b5129a5c90d862a0b0d92c2baea44a306f5cd7b"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/0857fcbbfd51eeb58f61c016.woff2",
+    "sha256": "f43ecaa73e0cd8fceaaf4ad4976f517350213416bc9b6d2cde3fe4417e427109"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/0ee142898d3051ce2b711c96.woff2",
+    "sha256": "0c6f7f82db8da0d811f15c95a66f7c3da33b81b4b23b101e0fc81310ae39b2cd"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/0ffbc7635f001360471d879a.woff2",
+    "sha256": "7d544b80701fe6782d9a41e32ad97691c4c9bff27c1ede728c3194c7b4939902"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/12db51de88815098aefd8e78.woff2",
+    "sha256": "fda2800dc1c06852c6a7f70754d5e4e9c82cd83108c9e49f134664968ea7a202"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/1634e10159939cb5313e4a53.woff2",
+    "sha256": "a68535a6b3289d8972397fb2d51b183665a83b7fc930921629b02b0827f58abe"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/1737458e4881267e50a9b87e.woff2",
+    "sha256": "65c90892c2e016579d81ff0a9ccab1a5cf85877697893b767a21d2d3a67ffbbe"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/17de8a6a0c0204390f5aa820.woff2",
+    "sha256": "1ac8c3718ee2eed2e77e5357c295be8486640f2bd86b3961d0b1742c94592b79"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/1c0daeda025025dc4b0f4a67.woff2",
+    "sha256": "f96fe0be479d201ff78519fa8c7dfd6acb3621ded61e3d9e5e2a70b9294d1dbf"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/1f0fc713bae1df867d4dc3b7.woff2",
+    "sha256": "b1983a041d7e4e1fc4c7c5d2eea1377ac79f48302556e73e8b22a1da43ba34e3"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/1ff570eb21ae1b9d5a2c6e04.woff2",
+    "sha256": "695a71d72dfab3f767ae4c3f67d1effcf3e33382c8fbf5804291f7a7c1c3a561"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/2570433d4856d64951bff261.woff2",
+    "sha256": "15b24e9d42a3270f5ba0d348a7db389228d603936cc2e35c06a08589132284fa"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/2a804cced54978200c0aed79.woff2",
+    "sha256": "a1b4bd294af24cd14ec6b7749c90d07a981ee991913cfea10e4ac8fffaa1da80"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/30d2057013cceb0f9a290d6f.woff2",
+    "sha256": "13a648e521d18d7f94d27e493b1ecaee2e9293a07df912a0ad6188b827135a77"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/34f536680488c4145435a131.woff2",
+    "sha256": "517204d716b089cd2943e7d0ef4377009d8990a1a40299aa55141b01183ec668"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/3707ccbf6470d0bedbd2ba1d.woff2",
+    "sha256": "6bc8c7d3e47c6fde34b24b6360b91c87fb9343444b2ec56c5371da6501f97c92"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/3b2b47b2e066d0111497e793.woff2",
+    "sha256": "54f51f80a074087897aebd5802e48909968ae86911776e9597e6ce51790f6721"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/3d52e8f9778fb9935bded3d3.woff2",
+    "sha256": "ba029c5bb6c07bf1ff0a02542b8548077f076a96f7e822a19cfc5d18ee8f4c1e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/405bf0202921e7391613dc23.woff2",
+    "sha256": "8932ed83a91794d465980b9fd528a89ab4d18bf56b41929cb68a115b905b84d7"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/44337057fae3700595300672.woff2",
+    "sha256": "b2948d928ce4dd54370f21866551c70f6aabbf2e6127eb6d59d175c299e06957"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/4485dc21ddda36c3c2403da5.woff2",
+    "sha256": "cd0f0cac743dbbfe4790fada124a7be795016e3502859d14842d54b7da76c185"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/45c0e2b450eba2deb92fdf11.woff2",
+    "sha256": "06970903593781c3a0bc796af76f9aeef8af44ff93ea5eb891577a4bf91fb3fe"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/4679d9144d6c747f17d0ebca.woff2",
+    "sha256": "4718bf36271912978610baa2c8333687892032d0179f8b6d5ac6553c3d80ea16"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/481d3536911a2a20565fdf8b.woff2",
+    "sha256": "1ed089d037a02049e655d2dba4b23e96e463cf8afb9e791d3770b9dcdc10cd5a"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/4884cec45ded542794539eb9.woff2",
+    "sha256": "3b2c56a921d1cad49af6319c94e645decf7dab352c60a19cc03c9cb5b7db93ee"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/4ae87d38d8f30f14a2e07963.woff2",
+    "sha256": "b6251e1967932a525769a44a27d3824d96d7dfa9e76e64fdf0c46d6709123bcc"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/4ba4b895882d021993239704.woff2",
+    "sha256": "46cb347d88f3338e15297c5b6b635fd7e1131bfebc219596d880ebf59409491d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/4c6265b792e0391c621391f6.woff2",
+    "sha256": "fab669c07a1e3bee015e3e2430c8d8990be239a463c7bc679c4b4a1671aec27d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/4e62761153692f85976ced18.woff2",
+    "sha256": "9b2d8a71667d3da69849c37ad5d6d42d0135f0e217ad6835ae1d925bb28f39a9"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/50210bc6d83b20d99a8c9bbe.woff2",
+    "sha256": "92efa2d4b3702ec063a01ff32b6f2a7a5d8682959ba2c458bd0c7a3056f0af3d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/51894ba52fb32ac21598d8e6.woff2",
+    "sha256": "7cfe93b3221f4defcc169736ffde9942767ebe7f78e71ef9c8ff7784608233d6"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/51c70e800d42502b38934e5e.woff2",
+    "sha256": "61625b0b21e8407f40887068fb397d8f709105aa5f29bc6de63b1fc0511b7a0c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/520fd3a134cf2ded48b5845f.woff2",
+    "sha256": "725a48711f1e1997d4f31a1f47563a03eb071cfe326212aa9492f05e20f02164"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/55a3f260b96eb046a42c09a4.woff2",
+    "sha256": "d3f59b094c334866315b5a1ed3a0765697d2f15d69d41875774c66560c4a965c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/59b36777b0866f3100d86c7f.woff2",
+    "sha256": "4b04bd88c3dc7c5d2656ced77eb17c0ec47acb03325e8709248a97482153304c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/5a99bd0a80ada0ce9410a40f.woff2",
+    "sha256": "a71463dbfd9fa7b5a8acc4fb5277ae87350dc5d02a3a064b0294c11fb393f0d2"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/5c0f2c1c2aaccca013f437ae.woff2",
+    "sha256": "7d6073ba07597c9b6dabd66e43af804f68f7b980f811ad6ebb253f860b38d5e5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/608ae65d56a7e130180a4468.woff2",
+    "sha256": "f37c0a853b31265e937bcd0bfb21ee1eef52a1badafb1be08f023ba5bf59e3da"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/6128e652ff30d6dc0abaf849.woff2",
+    "sha256": "dd0980ced8e46cb38bf7ed92026dfff928daec06ce81ced56cebd0cbfd431699"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/670c9d89a2e4d83ddcec980e.woff2",
+    "sha256": "79fb9d70b9534ec71b17ff65b71da114056c749b9be9b5e10db68241bb4ac98d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/6a27593f91cd1c8aa08617db.woff2",
+    "sha256": "8b87f9c6c164513af31c8c9f4da59bde20e702cb83e33c5cf471a97bf639a830"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/6cafd19bf9d69923f5c723d1.woff2",
+    "sha256": "28928bfea29db06a99b7b94545261b3c20ee2c3998e8d03121d4bb051766415b"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/6f5c9827157963c116364235.woff2",
+    "sha256": "0001bb744743fdfabaae286d3128ba9c991e75671c6b59ba03599cd830c68be9"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/6f679eb00715f47852aa9c72.woff2",
+    "sha256": "62191cdc3a10e60a71682270b4a68c9c468d4200456df2323bde13e5acda7685"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/71331b83b7a8c5f21bf6b611.woff2",
+    "sha256": "e264513b32f90660ace05a351d0f6ed9ed9bae9e13db504e14fb70c9c027c445"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/72b05178c8ef1e19bb8ae7cb.woff2",
+    "sha256": "f28c767724736d2d5e1d9e99e2a81a3834181274b40f4c3b0bd5ea130137b351"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/7364fe953edf50014e8bfe4c.woff2",
+    "sha256": "37bf7394eb3148c6133ce6d6dee967b08fa62696370f3a18969f545f1054309e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/749d1a1e981fa33e2c21619c.woff2",
+    "sha256": "a1da3dccbf00698e2db3adf53e0c67b9bc8c742db0cb1be29664c44a37d8bff7"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/76f67505296acabb0fe1e532.woff2",
+    "sha256": "3efa655bc48f9133ef82401a8f72f282291ed386802b71f452c3851c062081fb"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/773633e31b37b5da2b400b10.woff2",
+    "sha256": "00b3df730d5a4c732c30821180ec76ef9c1bcab804f155019e4a5df934d41d49"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/793073dd71e5203ec8e36a18.woff2",
+    "sha256": "868d59473ef0e73c52857cd71b18b2f997b9d9292a237e5e56cef70d5da9858f"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/825ebd4343764a192875b6f9.woff2",
+    "sha256": "10189a8f8ca38099474afad04fa5eab7ce49d036690c114455645074d87ad95d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/8e74f4bfde65d13810321659.woff2",
+    "sha256": "5a30022af3d30e0f53afc954f1ae39ba789544fcb0d919c2738036b131329d52"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/8e8ead366d627cc3fa4ef82b.woff2",
+    "sha256": "36508326bb68115f8d3cb11219e26e89cc988101a631563b14be6cf06090ef20"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/91fc188268f1b54d86159483.woff2",
+    "sha256": "2f6006745ae16d697808e106137225b7c2ff06cdf200763338c987053eb4660e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/92030404ac840affc9258871.woff2",
+    "sha256": "2d5ac7497d84cb996a6f854f2683ef0826039a587ec45a953753058d896fdb1c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/93c71ed81c569c1ec5295797.woff2",
+    "sha256": "b241a9409682af5fc63ab7294b13084e2979e5459fd37ac010c48d7e5ba57d78"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/944ce65b8c749e5628b64046.woff2",
+    "sha256": "948af36bd63a72c781a89c81501f514ba677de63b03cf8e874d626b820846ce5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/96ef75c4a7cd4330252699c6.woff2",
+    "sha256": "f09bd0afa8a58114699e8bbc081e16a0a666f82772b5a238b59b71dc69f558d8"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/9af4d0dafcb96d8f1de0d29a.woff2",
+    "sha256": "6963feb6c628b81fd038d07bf82eb05f3646404a6fc277af9310a112830de8b3"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/9c49cacd8ec81724175d55f2.woff2",
+    "sha256": "63c21eda5d20203fcdd76b0120644c8699954c12a3c9d4c991fac58837484096"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/9c6924f07ea1b701a998e8fb.woff2",
+    "sha256": "817d96335dc52ce64d61dcfa8164647f6f30e84f69eb6f98411ebe5195c4a166"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/9da7fb6caea2b4599e6e669b.woff2",
+    "sha256": "2ecf295bba2bfaa34cc57b3b244bc0d141021cd7d7b4d919bb60300fb9d20efe"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/9e1c7fc867ab30b80c899f37.woff2",
+    "sha256": "2a77fb7b70fa304d21794d9624e7e997520c20af3f182bac2c6d788f1d1b5dfc"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/a1a5323032bdce6e0d3f586c.woff2",
+    "sha256": "04f7c97bd9cbc73bb59fbae004047ca688f9e06e949f5659665971609fe128ce"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/a24bf27921a7e4a32fecfb48.woff2",
+    "sha256": "d583236b90abedc9eb5d4c5b772823fedae6a9114ed57d5cb25515ed5df4ec32"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/a55355aeea1d0e901dc675e2.woff2",
+    "sha256": "04a6ea581b5f119535ce2ade9cb488da7d50e3b1c5f37386a933c0efff6d9b77"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/a626f61bfe8b7af554e8a11c.woff2",
+    "sha256": "c27d341ad39d44ebd16d8f4dbfe8bbf29a83dd67f54a265685f4cc4fbe4097c2"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/a6dc345f38ac7710e5a426bc.woff2",
+    "sha256": "32cece1ae80c4f2ba1fb633a3bde5f01b068e65fcaca5da7ab432a740e65339b"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/aaf9b7ae53aed7746f3ca412.woff2",
+    "sha256": "c2c9876f138bb20f8422f31d477d888d34f0838c64f6885850dfa7eaff155958"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/aec183fd041d0d8fe90883cd.woff2",
+    "sha256": "dac35605ebec15c468af0e76f1fc95927bb303e58a841c8265b2b153ab4758dd"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/af9ebb600b2385786ab2b0ab.woff2",
+    "sha256": "380919beec4c7f3d344933738ca6990c9a184c7349a51ba5dfa82e1911bae86d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/b69328f28cd1e47f387fec90.woff2",
+    "sha256": "dfd9225628bcf234de136c6145b0e98f01a595686a685e72ef44a6221207fefc"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/b8e18d1539c977862bb4a064.woff2",
+    "sha256": "8edb2f7f2955921b18c5706a318fe34e418531e22634c112515dfa5334db514c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/b96c52eb3410051855d36cdf.woff2",
+    "sha256": "9f9e1e0d0ab2aeb4d277589dec9f3f6c55aac5a03cdb528822a9959ba9e884a9"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/c066082ed8d7ca6e46b5a5fa.woff2",
+    "sha256": "214c733a59d423e7e28514deaa5e12bb20ab7a4bee8d7a48f4e5a7e31d4c853a"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/c22bca62b6f6989fd9330ed0.woff2",
+    "sha256": "6d41ca59cfd504424e9e7af97dba8cb9ab1e933ec2134318b8337d924c15f7f9"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/c621a9ab1fb2f472059570a8.woff2",
+    "sha256": "48d47014544ebd5db9813962273c3365afd95450e20f34c181be189d1fe0168a"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/cb305087c7d40f6db3e2a639.woff2",
+    "sha256": "8ac85fdd0b15a6bd66765cf682b3115c650d0f4a733c178c44e985e7f8300cc5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/d183b3f4373453ccb34eac59.woff2",
+    "sha256": "4173bff087653b82b14749323fff6f45423f924771feb2d60fb8e8428428e6f5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/d39ab93814810715b55fd594.woff2",
+    "sha256": "7f8c9a777e64159acd86b9f4acda6b68696a43a9da5b2df23a0c171b77258d4e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/d427196940bc4cc559c642bf.woff2",
+    "sha256": "d2274bcd5636197d0b3eebc77dc96e96852348ba69ee1ab75578a3c696ce1054"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/d42d8146e77c8c611a11d02b.woff2",
+    "sha256": "16e2163b66c7732a91f2b06c26aac2f2d3025c337ca7750de8b34a6ebb4bd72c"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/d49add7dcb944a3d192a00e6.woff2",
+    "sha256": "bf08f0355222a78215074dd42b4951cee1a20fb3c6d46713af5c1c0801a6f949"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/da670e9e70afe09d505cabb1.woff2",
+    "sha256": "017fecc749bcd6d561fe5c4b23088f8d89ae4df33380b06a649f106a4a96867a"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/da8e4d4d9b1727afa95aaa81.woff2",
+    "sha256": "537adcae4451127080df1421e5d86d6edaba187d6d8c0ec4c4bfd1767a0e9e8e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/db562615aa5eeb018ef5ad1e.woff2",
+    "sha256": "c712899e0fc9e94753f17f3d62fd83ac311c9298cf3ca88171d0f3e63da96847"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/dcb456d8cb321b509d241ec4.woff2",
+    "sha256": "bf3743f8155fa9d2e25b61ea337893400399bb4ae775733033c06f2bbd91d677"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/e07a93b3ad75df55cb0d015c.woff2",
+    "sha256": "72c856197611653754a8d722bec8a379331498e47bea0a30091690f69474f36d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/e1cb61079b0b444e089ecb98.woff2",
+    "sha256": "1faa921b035064e7a15d16f1d413d367b2c8945fdd4bba8ed92ff7a2bbc95feb"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/e65c271655bba0e096f52fb4.woff2",
+    "sha256": "d81f8484404ee465b2894779f4947d3163bf3dd042b128423931889c9e70a256"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/e68c57cde28968a71afb4a06.woff2",
+    "sha256": "50cb5fb0a522cfaf23c98b97bbe4048c7b0dd9c4c7bcb3321046640bea6d7054"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/ea2db3c4ef395853b4358c3b.woff2",
+    "sha256": "d052677dfb5db5bd9a6f9e914f92c2652ad002138c087084a8afda67547e6b0d"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/ee4df60ccdd922459bbc7aa0.woff2",
+    "sha256": "7920841c526b1b02a2ace4193a5c79e023aa33bc66719bfee6b777f53f3db572"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/eeb6fab137620bd63f52a18f.woff2",
+    "sha256": "1a57eda03886b43ccc9be26174c864a9a1106b296d8a7ecbbd15cbb91a537b3b"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/ef4b0f15e418b77eb1cfe5d8.woff2",
+    "sha256": "9a00ae0e5735852b255e2758efe97cf059705690fa073e47aad0920880ccc3f5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/f328e4a8e479229df2ae1a6c.woff2",
+    "sha256": "4884f032342a3274ee53219884b24ff461a84540633d867f29f2461b13df0fda"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/f7ad9577b7f95d61b80ff625.woff2",
+    "sha256": "653dd2ab7d551b401c4bbdf03e20a82d3e34b16cf9c3402ab526837144910d7e"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/fb2a2a2ef40f4d15e4db8037.woff2",
+    "sha256": "d3a4eb35499157b7a3622f21b6fba38fe595fe31cd280d230102e1b3faa4cd17"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/fb8d7f9b7d8116185c06bdb1.woff2",
+    "sha256": "d094414ea752cd52677008f5aae1e5dba21991850646e64d87aebc614aab6a56"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/fcd4a3761e95bd4900f272f1.woff2",
+    "sha256": "01a0f4e7dfba0a56940127fd570d8df8534f6180526725041fbfda1ea8cbaa78"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/fe0c909e287b0e0c663b30c8.woff2",
+    "sha256": "0989885bb16bcd9b7f891ac78b898b0c1d50ecc0c93df880099472f024a8d9f3"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/fe3ed89b55045bd164c74f47.woff2",
+    "sha256": "87a7c76301c24a28446d73f3416c422c52da6186f6923ae1d7ac6f0958e388a5"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/fee2411e187760d42a0a3096.woff2",
+    "sha256": "c9e83fc4ffd53746e9f9c74b1f8fce454ef436a4606aa3ca38518f3665884916"
+  },
+  {
+    "path": "outputs/codex-chat-demo/fonts/OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+  },
+  {
+    "path": "outputs/workbench-install-guide-site/dist/index.html",
+    "sha256": "0d969dd457a826c4a11623cc81bfb39278c7eb280dee9ed2d3a2eaa6a2e2f723"
+  },
+  {
+    "path": "outputs/workbench-install-guide-site/dist/assets/cow.svg",
+    "sha256": "46840b35fbbf960af135a422070655daa1efd289d4434a97df10fa5961cde127"
+  },
+  {
+    "path": "outputs/workbench-install-guide-site/dist/assets/installer-v040.png",
+    "sha256": "9dac1d51c8393a7c1bd1fb21da71cad6fbeba5e84798e48d175f403bb0dacac6"
+  },
+  {
+    "path": "outputs/workbench-install-guide-site/dist/assets/installer-v041.png",
+    "sha256": "7b7dde521572c0ef06b50eb5f179eeaba84bc5a2f52b6021ccb090cf9c8b298c"
+  },
+  {
+    "path": "outputs/workbench-install-guide-site/dist/assets/installer-v042.png",
+    "sha256": "073c2cad18465db9e24328f4173c183f1c6c8e866705fc04d04412f7e9223d87"
+  },
+  {
+    "path": "outputs/workbench-install-guide-site/dist/assets/installer-v044.png",
+    "sha256": "1d6e7b31c6b8cc4c1d6e6e454cea76aa63ef1729d9566ee723dc62dbb301c588"
+  },
+  {
+    "path": "work/build-auto-update.cjs",
+    "sha256": "45e2e598b761a53fece192bf159724e7e8ae5cd240a5ccc18e98a16797ccb01e"
+  },
+  {
+    "path": "work/build-desktop.py",
+    "sha256": "a16cd2c5e13183dc9a386f1063ebb0343bef9f047ef101a38b4bb51591969cda"
+  }
+]
